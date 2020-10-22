@@ -5,13 +5,15 @@
 }
 
 body {
-    background-color: #22254b;
+    /* background-color: #22254b; */
+    background-color: #5057b3;
     font-family: "Poppins", sans-serif;
     margin: 0;
 }
 
 header {
-    background-color: #373b69;
+    /* background-color: #373b69; */
+    background-color: #0d0f2b;
     display: flex;
     justify-content: flex-end;
     padding: 1rem;
@@ -47,8 +49,8 @@ main {
     box-shadow: 0 4px 5px rgba(0, 0, 0, 0.2);
     overflow: hidden;
     position: relative;
-    margin: 1rem;
-    width: 300px;
+    margin: 2.0rem;
+    width: 240px;
 }
 
 .movie img {
@@ -56,7 +58,7 @@ main {
 }
 
 .movie-info {
-    color: #eee;
+    color: #eee;    
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -66,7 +68,8 @@ main {
 
 .movie-info h3 {
     margin: 0;
-    color:#a9495a
+    color: #ffffff;
+    /* color:#a9495a */
 }
 
 .movie-info span {
